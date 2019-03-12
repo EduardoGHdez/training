@@ -1,0 +1,31 @@
+# [Flexbox Froggy game](https://flexboxfroggy.com/)
+
+Here are my solutions.
+
+1. [level-1](./img/1.png)
+2. [level-2](./img/2.png)
+3. [level-3](./img/3.png)
+4. [level-4](./img/4.png)
+5. [level-5](./img/5.png)
+6. [level-6](./img/6.png)
+7. [level-7](./img/7.png)
+8. [level-8](./img/8.png)
+9. [level-9](./img/9.png)
+10. [level-10](./img/10.png)
+11. [level-11](./img/11.png)
+12. [level-12](./img/12.png)
+13. [level-13](./img/13.png)
+14. [level-14](./img/14.png)
+15. [level-15](./img/15.png)
+16. [level-16](./img/16.png)
+17. [level-17](./img/17.png)
+18. [level-18](./img/18.png)
+19. [level-19](./img/19.png)
+10. [level-20](./img/20.png)
+21. [level-21](./img/21.png)
+22. [level-22](./img/22.png)
+23. [level-23](./img/23.png)
+24. [level-24](./img/24.png)
+
+# End
+![finishi](./img/25.png)
