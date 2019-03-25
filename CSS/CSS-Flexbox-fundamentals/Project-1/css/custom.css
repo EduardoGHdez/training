@@ -3,12 +3,14 @@ html, body{
 }
 
 ul#flex-container{
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 ul li{
+  flex-grow: 1;
   height: 150px;
   padding-top: 45px;
   color: white;
@@ -19,7 +21,14 @@ ul li{
 
 ul li:first-child { background: #c2d775 }
 ul li:nth-child(2) { background: #007278 }
-ul li:nth-child(3) { background: #c7b600 }
+ul li:nth-child(3) {
+  order: -1;
+  background: #c7b600;
+  flex-grow: 2;
+}
 ul li:nth-child(4) { background: #a90077 }
-ul li:nth-child(5) { background: #00a378 }
+ul li:nth-child(5) {
+  background: #00a378;
+  flex-grow: 5;
+}
 ul li:last-child { background: #00ea72 }
