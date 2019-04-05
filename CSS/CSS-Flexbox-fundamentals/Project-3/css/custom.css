@@ -1,0 +1,141 @@
+a:hover {
+  color: gray;
+}
+
+html, body {
+  background: #1c1c1c;
+  height: 100%;
+}
+
+h1, p {
+  color: #b2b2b2;
+  font-family: 'Raleway';
+}
+
+header {
+  background: #000;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 18px;
+}
+
+header div:nth-child(1) {
+  flex-grow: 8;
+  width: 125px;
+  padding-bottom: 15px;
+}
+
+header div:nth-child(1) img {
+  margin-left: 20px;
+}
+
+ul {
+  display:flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}
+
+ul li {
+  flex-grow: 1;
+  text-align: center;
+  width: 100px;
+}
+
+ul li a {
+  color: #fff;
+  font-size: .9em;
+  text-transform: uppercase;
+}
+
+.child {
+  flex-grow: 1;
+}
+
+.container {
+  padding: 80px;
+}
+
+#magnify {
+  cursor: pointer;
+}
+
+#search {
+  background: #3a3a3a url(../images/magnify2.png) no-repeat 5px 5px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  display: none;
+  outline: none;
+  padding: 4px 4px 4px 25px;
+}
+
+
+@media all and (max-width: 800px) {
+
+  header {
+    justify-content: space-around;
+  }
+
+  .container {
+    padding: 50px;
+  }
+
+  #search {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+}
+
+@media only screen and (max-width:542px) {
+
+  header div:nth-child(1) {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 0;
+  }
+
+  header {
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+
+  header div:nth-child(2) {
+    align-self: flex-end;
+    width: 22px;
+  }
+
+  ul {
+    background: #232323;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  ul li {
+    padding: 5px;
+    width: 50%;
+  }
+
+  .child {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .container {
+    padding: 30px;
+  }
+
+  #search {
+    display: block;
+    margin: 16px auto 0 auto;
+    width: 80%;
+  }
+
+  #magnify {
+    display: none;
+  }
+}
