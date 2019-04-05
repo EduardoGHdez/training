@@ -2,4 +2,4 @@
 
 ## Instructor: Gary Simon (Web designer)
 
-
+Here I leave my exercises solved.
