@@ -1,6 +1,11 @@
 # Testing Ruby Applications with RSpec
 ## by: Xavier Shay
 
+### Notes:
+
+1. Reduce dependency
+2. Test behaviour, not implementation
+
 ### Rspec Family
 
 Library | Features
@@ -31,3 +36,10 @@ There are different ways for setting common command line flags at different scop
 - Project
 - Global
 Hierarchy: Local > Project > Global
+
+### Shared examples
+To remove some duplication between samples.
+
+### RSpec convenience
+`let` and `subject`
+
