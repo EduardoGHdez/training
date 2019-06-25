@@ -19,3 +19,15 @@ describe | Is a way to group examples/properties
 ### Principles
 * Spec behavior, not implementation.
 * Spec for confidence, not proof
+
+### Three conventions for organizing our project
+1. lib and spec directories
+2. suffixing our spec files `_spec`
+3. Usage of common spec helper file `spec_helper.rb`
+
+### Configuration
+There are different ways for setting common command line flags at different scopes:
+- Local
+- Project
+- Global
+Hierarchy: Local > Project > Global
