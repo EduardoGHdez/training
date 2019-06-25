@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-require_relative '../src/card'
+require 'spec_helper'
+require 'card'
 
 RSpec.describe Card do
   it 'has a suit' do
